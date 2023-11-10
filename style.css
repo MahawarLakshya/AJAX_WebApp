@@ -1,0 +1,104 @@
+        body {
+            background: #948E99;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #2E1437, #948E99);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #2E1437, #948E99);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        
+        .responsive {
+            max-width: 75%;
+            height: auto;
+        }
+        
+        img {
+            padding: 15px;
+        }
+        
+        .displayBox {
+            width: 100%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+        }
+        
+        .scroll-box {
+            overflow-y: auto;
+            height: 500px;
+            float: left;
+            padding: 1rem;
+        }
+        
+        .responsive {
+            border-radius: 25px;
+            max-width: 85%;
+            height: auto;
+        }
+        
+        .logo {
+            display: flex;
+        }
+        
+        .displayBox {
+            width: 100%;
+            font-family: 'Pathway Extreme', sans-serif;
+        }
+        
+        .scroll-box {
+            overflow-y: auto;
+            height: 500px;
+            float: left;
+            padding: 1rem;
+        }
+        
+        .dropdown-content {
+            display: none;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        @media (max-width: 790px) and (min-width: 120px) {
+            .col-md-8,
+            .col-md-4 {
+                padding: 5px;
+            }
+            /* Adjust heading font size */
+            h1 {
+                font-size: 18px;
+            }
+            /* Adjust logo image width */
+            .logo img {
+                width: 20px;
+                height: 20px;
+            }
+            /* Adjust search card */
+            .card.my-4 {
+                margin-bottom: 10px;
+            }
+            .card.my-4 .card-header {
+                font-size: 16px;
+            }
+            .card.my-4 .card-body {
+                padding: 10px;
+            }
+            .card.my-4 .card-footer {
+                font-size: 12px;
+            }
+            .card.my-4 .input-group {
+                margin: 0;
+            }
+            .card.my-4 .btn-secondary {
+                padding: 0.25rem 0.5rem;
+                font-size: 12px;
+            }
+        }
